@@ -23,7 +23,7 @@ Class datasourcefreegeoip extends Datasource {
         );
     }
 
-    public function execute(){
+    public function execute(array &$param_pool = null){
 
 
 
@@ -43,4 +43,3 @@ Class datasourcefreegeoip extends Datasource {
     }
 
 }
-
